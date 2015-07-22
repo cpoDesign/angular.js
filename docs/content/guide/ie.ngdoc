@@ -29,3 +29,7 @@ To ensure your Angular application works on IE please consider:
 
 1. Use `ng-style` tags instead of `style="{{ someCss }}"`. The latter works in Chrome and Firefox
    but does not work in Internet Explorer <= 11 (the most recent version at time of writing).
+
+To ensure your Angular application works on IE 9 consider following
+  
+1. Use `data-ng-` tags instead of `ng-`
